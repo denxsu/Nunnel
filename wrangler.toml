@@ -1,0 +1,24 @@
+name = "max-sg1" # todo
+#name = "cf-worker-connect-test" # todo
+#main = "test/worker/cf-cdn-cgi-trace2.js"
+#main = "test/worker/worker-connect-test.js"
+main = "_worker.js"
+compatibility_date = "2023-05-26"
+[[routes]]
+pattern = "sg1.indoeskrim.biz.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.int.vidio.com.sg1.indoeskrim.biz.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.vidio.com.sg1.indoeskrim.biz.id"
+custom_domain = true
+
+[vars]
+# UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
+# PROXYIP = "1.2.3.4"
+# DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
+# NODE_ID = "1"
+# API_TOKEN = "example_dev_token"
+# API_HOST = "api.v2board.com"
+UUID = "80f1404e-ef36-4bb9-b2b5-3e53b83affd4,202abf94-7605-456f-81d3-5d4450ae65b8,ad28e42e-8cb7-4696-8e32-4a3942a0b12c,f1c228b8-d8af-4f91-ba17-6dbae4dd7349,84f4551d-ce85-4f24-8a06-1eb4c8c79d19,60c787ff-236f-4bba-955a-7df87707100e"
